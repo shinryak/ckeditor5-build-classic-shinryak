@@ -1,5 +1,5 @@
 {
-  "name": "ckeditor5-build-classic-shinryak",
+  "name": "@shinryak/ckeditor5-build-classic-shinryak",
   "version": "0.0.1",
   "description": "The classic editor custom build of CKEditor 5.",
   "keywords": [
@@ -67,10 +67,12 @@
   "author": "Shinryak",
   "license": "GPL-2.0",
   "homepage": "https://github.com/shinryak",
-  "bugs": "https://github.com/shinryak/ckeditor5-build-classic-shinryak/issues",
+  "bugs": {
+    "url": "https://github.com/shinryak/ckeditor5-build-classic-shinryak/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shinryak/ckeditor5-build-classic-shinryak"
+    "url": "git+https://github.com/shinryak/ckeditor5-build-classic-shinryak.git"
   },
   "scripts": {
     "build": "webpack --mode production",
@@ -95,5 +97,8 @@
       "pre-commit": "lint-staged"
     }
   },
-  "dependencies": {}
+  "dependencies": {},
+  "directories": {
+    "test": "tests"
+  }
 }
