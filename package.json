@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-build-classic-shinryak",
-  "version": "16.0.2",
+  "version": "0.0.1",
   "description": "The classic editor custom build of CKEditor 5.",
   "keywords": [
     "ckeditor5-build",
